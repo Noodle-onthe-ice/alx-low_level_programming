@@ -2,8 +2,8 @@
 
 /**
  * main - code entry
- * 
- * Return: output of 1 shows success
+ *
+ * * Return: output of 1 shows success
  */
 
 int main(void)
