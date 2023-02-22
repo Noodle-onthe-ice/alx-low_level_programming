@@ -13,6 +13,7 @@ void print_alphabet(void)
 		putchar(c);
 		c += 1;
 	}
+	putchar('\n');
 }
 
 /**
@@ -23,7 +24,5 @@ void print_alphabet(void)
 
  int main(void)
 {
-	char a = print_alphabet();
-	putchar(a);
-	return(0);
+	print_alphabet();
 }
