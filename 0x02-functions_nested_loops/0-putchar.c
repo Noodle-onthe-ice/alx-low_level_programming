@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - code entry
@@ -7,6 +8,9 @@
 
 int main(void)
 {
-	printf("_putchar");
+	int j = _putchar("_putchar\n")
+	printf("%s",j);
 	return (0);
 }
+
+
