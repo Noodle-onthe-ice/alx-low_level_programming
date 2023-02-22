@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "main"
 
 /**
  * main - code entry
@@ -8,8 +8,16 @@
 
 int main(void)
 {
-	int j = _putchar("_putchar\n");
-	printf("%d", j);
+	char c = '_putchar\n';
+	_putchar(c[0]);
+	_putchar(c[1]);
+	_putchar(c[2]);
+	_putchar(c[3]);
+	_putchar(c[4]);
+	_putchar(c[5]);
+	_putchar(c[6]);
+	_putchar(c[7]);
+	_putchar(c[8]);
 	return (0);
 }
 
