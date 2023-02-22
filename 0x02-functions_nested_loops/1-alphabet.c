@@ -1,19 +1,5 @@
 #include "main.h"
 
-void print_alphabet(void)
-/**
- * main - Entry point
- *
- * Return: 0
- */
-
- int main(void)
-{
-	char a = print_alphabet();
-	putchar(a);
-	return(0);
-}
-
 /**
  * print_alphabet - prints alphabets
  * Return: 0
@@ -26,5 +12,17 @@ void print_alphabet(void)
 		putchar(c);
 		c += 1;
 	}
+}
 
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
+
+ int main(void)
+{
+	char a = print_alphabet();
+	putchar(a);
+	return(0);
 }
