@@ -16,6 +16,11 @@ void print_alphabet_x10(void)
 		i += 1;
 	}
 }
+
+/**
+ * print_alphabet - prints alphabets
+ * Return: 0
+ */
 void print_alphabet(void)
 {
 	char alpha;
@@ -24,5 +29,5 @@ void print_alphabet(void)
 	{
 		_putchar(alpha);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
