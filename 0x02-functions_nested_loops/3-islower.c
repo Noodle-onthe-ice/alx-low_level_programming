@@ -3,7 +3,7 @@
 
 /**
  * _islower - checks for lowercase letters
- * c - parameter
+ * @c - parameter
  * Return: 1 if c is lowercaseor 0 if otherwise
  */
 
