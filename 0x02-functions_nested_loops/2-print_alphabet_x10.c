@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *print_alphabet_x10 - prints alphabets 10x
@@ -22,4 +23,4 @@ void print_alphabet(void)
         {
                 _putchar(alpha);
         }
-        _putchar('\n');
+        putchar('\n');
