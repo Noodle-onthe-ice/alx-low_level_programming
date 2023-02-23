@@ -22,4 +22,4 @@ void print_alphabet(void)
         {
                 _putchar(alpha);
         }
-        putchar('\n');
+        _putchar('\n');
