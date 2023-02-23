@@ -14,3 +14,12 @@ void print_alphabet_x10(void)
 		i += 1;
 	}
 }
+void print_alphabet(void)
+{
+        char alpha;
+
+        for (alpha = 'a'; alpha <= 'z'; alpha++)
+        {
+                _putchar(alpha);
+        }
+        putchar('\n');
