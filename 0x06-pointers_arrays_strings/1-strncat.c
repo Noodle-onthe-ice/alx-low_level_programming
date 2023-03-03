@@ -6,7 +6,7 @@
  * @src: 2nd string
  * @dest: 1st string
  * @n: number of bytes
- * Return:
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -20,13 +20,9 @@ char *_strncat(char *dest, char *src, int n)
 		k++;
 	}
 
-	for (l = 0; *(src + l != '\0'; l++, k++)
+	for (l = 0; *(src + l) != '\0' && l < n; l++, k++)
 	{
-		if (src[j] < n)
-		{
-			*(dest + k) = *(src + l);
-		
-		}
+		*(dest + k) = *(src + l);
 	}
 
 	*(dest + k) = '\0';
